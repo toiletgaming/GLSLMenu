@@ -1,0 +1,16 @@
+[
+{
+  "modid": "glslmenu",
+  "name": "Custom GLSL Main Menu",
+  "description": "Renders GLSL shaders in Minecraft main menu",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/toiletgaming/GLSLMenu",
+  "updateUrl": "",
+  "authorList": ["mrnv/ayywareseller"],
+  "credits": "superblaubeere27",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

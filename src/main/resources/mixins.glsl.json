@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.7.4",
+  "compatibilityLevel": "JAVA_8",
+  "package": "fuck.you.glslmenu.mixins",
+  "refmap": "mixins.glsl.refmap.json",
+  "mixins": [
+    "MixinGuiMainMenu",
+    "MixinMinecraft"
+  ]
+}
