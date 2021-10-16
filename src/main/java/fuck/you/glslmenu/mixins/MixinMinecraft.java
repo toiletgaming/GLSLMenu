@@ -13,7 +13,7 @@ public class MixinMinecraft
     @Inject( method = "getLimitFramerate", at = @At( "HEAD" ), cancellable = true )
     public void getLimitFramerate( CallbackInfoReturnable< Integer > info )
     {
-        if( Main.shaders.currentshader != null )
+        if( Main.shaders.currentshader != null && Minecraft.getMinecraft( ).player == null )
             info.setReturnValue( 60 );
     }
 }
